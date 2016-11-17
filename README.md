@@ -50,7 +50,7 @@
 ``` javascript
 import {Http} from 'autobots-framework';
   
-Http.request("http://xxx.com{name:""}).then(function(data){
+Http.request("http://xxx.com",{name:""}).then(function(data){
           if(data)
           {
 	          //成功
