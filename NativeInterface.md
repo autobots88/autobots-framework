@@ -30,7 +30,7 @@
 
 ### 接口定义
 ####[autobots://testrn/getUrlParams]
-> 获取原生参数 
+获取原生参数 
 
 ``` javascript
 	//传递参数
@@ -41,7 +41,7 @@
 ```
 
 ####[autobots://testrn/getEmpCode]
-> 获取当前登录人信息
+获取当前登录人信息
 ``` javascript
 	//传递参数
 	无
@@ -51,35 +51,37 @@
 ```
 
 ####[autobots://testrn/gotoHomePage]
-> 返回汽车人首页 
+返回汽车人首页 
 ``` javascript
 	//传递参数
 	无
 	//返回值
 	returnObject:null	
+	
 ```
-
 ####[autobots://testrn/getUserLocation]
-> 返回定位信息  
+返回定位信息  
 ``` javascript
 	//传递参数
 	无
 	//返回值
 	returnObject:{"lng":"xxx","lat":"xxx"}	
 	//lng-经度 lat-纬度
+	
 ```
 
 ####[autobots://testrn/callDeviceShake]
-> 开启摇一摇 
+开启摇一摇 
 ``` javascript
 	//传递参数
 	enabled=true
 	//返回值
 	returnObject:null
+	
 ```
 
 ####[autobots://testrn/callDeviceShake]
-> 关闭摇一摇 
+关闭摇一摇 
 ``` javascript
 	//传递参数
 	enabled=false
@@ -88,7 +90,7 @@
 ```
 
 ####[autobots://testrn/callSinglePersonSelect]
-> 选择员工(单选) 
+选择员工(单选) 
 ``` javascript
 	//传递参数
 	title=选择员工&fection=最近选择员工
@@ -100,7 +102,7 @@
 ```
 
 ####[autobots://testrn/callMultPersonSelect]
-> 选择员工(多选)  
+选择员工(多选)  
 ``` javascript
 	//传递参数
 	title=选择员工&fection=最近选择员工
