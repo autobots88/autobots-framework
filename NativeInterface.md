@@ -28,8 +28,7 @@
 
 #### 接口定义
 
-> 获取原生参数
-> autobots://testrn/getUrlParams
+> 获取原生参数 autobots://testrn/getUrlParams
 
 ``` javascript
 	//传递参数
@@ -40,8 +39,7 @@
 ```
 
 
-> 获取当前登录人信息
-> autobots://testrn/getEmpCode 
+> 获取当前登录人信息 autobots://testrn/getEmpCode 
 ``` javascript
 	//传递参数
 	无
@@ -50,8 +48,7 @@
 	
 ```
 
-> 返回汽车人首页
-> autobots://testrn/gotoHomePage 
+> 返回汽车人首页 autobots://testrn/gotoHomePage 
 ``` javascript
 	//传递参数
 	无
@@ -59,8 +56,7 @@
 	returnObject:null	
 ```
 
-> 返回定位信息
-> autobots://testrn/getUserLocation 
+> 返回定位信息 autobots://testrn/getUserLocation 
 ``` javascript
 	//传递参数
 	无
@@ -69,8 +65,7 @@
 	//lng-经度 lat-纬度
 ```
 
-> 开启摇一摇
-> autobots://testrn/callDeviceShake 
+> 开启摇一摇 autobots://testrn/callDeviceShake 
 ``` javascript
 	//传递参数
 	enabled=true
@@ -78,8 +73,7 @@
 	returnObject:null
 ```
 
-> 关闭摇一摇
-> autobots://testrn/callDeviceShake 
+> 关闭摇一摇 autobots://testrn/callDeviceShake 
 ``` javascript
 	//传递参数
 	enabled=false
@@ -88,8 +82,7 @@
 ```
 
 
-> 选择员工(多选)
-> autobots://testrn/callMultPersonSelect 
+> 选择员工(多选) autobots://testrn/callMultPersonSelect 
 ``` javascript
 	//传递参数
 	title=选择员工&fection=最近选择员工
@@ -104,8 +97,7 @@
 
 ```
 
-> 选择员工(单选)
-> autobots://testrn/callSinglePersonSelect 
+> 选择员工(单选) autobots://testrn/callSinglePersonSelect 
 ``` javascript
 	//传递参数
 	title=选择员工&fection=最近选择员工
