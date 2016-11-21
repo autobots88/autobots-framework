@@ -88,12 +88,10 @@
 	title=选择员工&fection=最近选择员工
 	//返回值
 	returnObject:[
-		{"empCode":"4576","empName":"吴潜","empDept":"信息系统组"},
-		...
-    ]
-
+		{"empCode":"4576","empName":"吴潜","empDept":"信息系统组"}
+		...]
     //通知接收名称
-    react_event_callMultPersonSelect
+    //react_event_callMultPersonSelect
 
 ```
 
