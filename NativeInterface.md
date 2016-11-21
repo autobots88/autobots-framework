@@ -10,9 +10,9 @@
   //...后续回有更多接口加入
    
   //Native请求url格式
-  "autobots://{appcode}/{调用接口名称}+{参数}"
-  如调用选择员工接口
-  "autobots://testrn/callMultPersonSelect?title=选择被分享人&fection=最近选择被分享人"
+  //"autobots://{appcode}/{调用接口名称}+{参数}"
+  //如调用选择员工接口
+  //"autobots://testrn/callMultPersonSelect?title=选择被分享人&fection=最近选择被分享人"
 
   //Native请求返回Json格式
   {
@@ -27,8 +27,10 @@
 ```
 
 #### 接口定义
+
 > 获取原生参数
-> autobots://testrn/getUrlParams 
+> autobots://testrn/getUrlParams
+
 ``` javascript
 	//传递参数
 	无
