@@ -1,7 +1,9 @@
-### Native
-> 提供RN与原生交互功能。  
+# 汽车人Native接口
+
+
+
  
-#### 调用方式
+### 调用方式
 ``` javascript
   import {Native} from 'autobots-framework';
   //回到汽车人首页
@@ -26,9 +28,9 @@
 
 ```
 
-#### 接口定义
-
-> 获取原生参数 autobots://testrn/getUrlParams
+### 接口定义
+####[autobots://testrn/getUrlParams]
+> 获取原生参数 
 
 ``` javascript
 	//传递参数
@@ -38,8 +40,8 @@
 	
 ```
 
-
-> 获取当前登录人信息 autobots://testrn/getEmpCode 
+####[autobots://testrn/getEmpCode]
+> 获取当前登录人信息
 ``` javascript
 	//传递参数
 	无
@@ -48,7 +50,8 @@
 	
 ```
 
-> 返回汽车人首页 autobots://testrn/gotoHomePage 
+####[autobots://testrn/gotoHomePage]
+> 返回汽车人首页 
 ``` javascript
 	//传递参数
 	无
@@ -56,7 +59,8 @@
 	returnObject:null	
 ```
 
-> 返回定位信息 autobots://testrn/getUserLocation 
+####[autobots://testrn/getUserLocation]
+> 返回定位信息  
 ``` javascript
 	//传递参数
 	无
@@ -65,7 +69,8 @@
 	//lng-经度 lat-纬度
 ```
 
-> 开启摇一摇 autobots://testrn/callDeviceShake 
+####[autobots://testrn/callDeviceShake]
+> 开启摇一摇 
 ``` javascript
 	//传递参数
 	enabled=true
@@ -73,7 +78,8 @@
 	returnObject:null
 ```
 
-> 关闭摇一摇 autobots://testrn/callDeviceShake 
+####[autobots://testrn/callDeviceShake]
+> 关闭摇一摇 
 ``` javascript
 	//传递参数
 	enabled=false
@@ -81,28 +87,31 @@
 	returnObject:null
 ```
 
+####[autobots://testrn/callSinglePersonSelect]
+> 选择员工(单选) 
+``` javascript
+	//传递参数
+	title=选择员工&fection=最近选择员工
+	//返回值
+	returnObject:{"empCode":"4576","empName":"吴潜","empDept":"信息系统组"}
+    //通知接收名称
+    react_event_callSinglePersonSelect
 
-> 选择员工(多选) autobots://testrn/callMultPersonSelect 
+```
+
+####[autobots://testrn/callMultPersonSelect]
+> 选择员工(多选)  
 ``` javascript
 	//传递参数
 	title=选择员工&fection=最近选择员工
 	//返回值
 	returnObject:[
 		{"empCode":"4576","empName":"吴潜","empDept":"信息系统组"}
-		...]
+    ]
     //通知接收名称
-    //react_event_callMultPersonSelect
+    react_event_callMultPersonSelect
 
 ```
 
-> 选择员工(单选) autobots://testrn/callSinglePersonSelect 
-``` javascript
-	//传递参数
-	title=选择员工&fection=最近选择员工
-	//返回值
-	returnObject:{"empCode":"4576","empName":"吴潜","empDept":"信息系统组"}
-    
-    //通知接收名称
-    react_event_callSinglePersonSelect
 
-```
+
