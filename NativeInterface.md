@@ -116,11 +116,11 @@
 ```
 
 
-####[autobots://testrn/MultImagePicker]
+####[autobots://testrn/ImagePicker]
 选择图库(多选)  
 ``` javascript
 	//传递参数
-	无
+	muti=true
 	//返回值
 	returnObject:["url","url","url"] //图片路径数组
     //通知接收名称
@@ -128,11 +128,11 @@
 
 ```
 
-####[autobots://testrn/SingleImagePicker]
+####[autobots://testrn/ImagePicker]
 选择图库(单选)  
 ``` javascript
 	//传递参数
-	无
+	muti=false
 	//返回值
 	returnObject:"url" //图片路径
     //通知接收名称
