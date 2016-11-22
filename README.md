@@ -85,6 +85,43 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
    
 ```
 
+#### ImagesPicker
+``` javascript
+  import {Components} from 'autobots-framework';
+  const {ImagesPicker} = Components;
+  
+  ...
+  <ImagesPicker ref={imgPicker=>this.imgPicker=imgPicker} onPicked={(data)=>{
+		   //返回值
+			  单选返回图片url
+			  多选返回图片url数组
+ }} />
+
+ this.imgPicker.MultPick(); //多选
+ this.imgPicker.SinglePick(); //单选
+ ...
+   
+```
+
+
+#### CameraPicker
+``` javascript
+  import {Components} from 'autobots-framework';
+  const {CameraPicker} = Components;
+  
+  ...
+  <CameraPicker ref={caPicker=>this.caPicker=caPicker} onPicked={(data)=>{
+		   //返回值
+		   返回图片url
+ }} />
+
+ this.caPicker.Pick(); //拍照
+
+
+ ...
+   
+```
+
 ### Config
 > 提供系统内的一些配置参数。  
  
