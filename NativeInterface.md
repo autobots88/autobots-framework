@@ -117,7 +117,7 @@
 
 
 ####[autobots://testrn/MultImagePicker]
-> 选择图库(多选)  
+选择图库(多选)  
 ``` javascript
 	//传递参数
 	无
@@ -129,7 +129,7 @@
 ```
 
 ####[autobots://testrn/SingleImagePicker]
-> 选择图库(单选)  
+选择图库(单选)  
 ``` javascript
 	//传递参数
 	无
@@ -141,7 +141,7 @@
 ```
 
 ####[autobots://testrn/CameraPicker]
-> 拍照  
+拍照  
 ``` javascript
 	//传递参数
 	无
