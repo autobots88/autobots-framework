@@ -116,4 +116,40 @@
 ```
 
 
+####[autobots://testrn/MultImagePicker]
+> 选择图库(多选)  
+``` javascript
+	//传递参数
+	无
+	//返回值
+	returnObject:["url","url","url"] //图片路径数组
+    //通知接收名称
+    react_event_multImagePicker
+
+```
+
+####[autobots://testrn/SingleImagePicker]
+> 选择图库(单选)  
+``` javascript
+	//传递参数
+	无
+	//返回值
+	returnObject:"url" //图片路径
+    //通知接收名称
+    react_event_singleImagePicker
+
+```
+
+####[autobots://testrn/CameraPicker]
+> 拍照  
+``` javascript
+	//传递参数
+	无
+	//返回值
+	returnObject:"url" //图片路径
+    //通知接收名称
+    react_event_cameraPicker
+
+```
+
 
