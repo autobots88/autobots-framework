@@ -97,7 +97,7 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
 			  多选返回图片url数组
  }} />
 
- this.imgPicker.MultPick(); //多选
+ this.imgPicker.MutiPick(); //多选
  this.imgPicker.SinglePick(); //单选
  ...
    
