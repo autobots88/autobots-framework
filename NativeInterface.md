@@ -153,3 +153,14 @@
 ```
 
 
+####[autobots://testrn/MainLoading]
+ 汽车人通用Loading  
+``` javascript
+	//传递参数
+	display=true //true 打开 false 关闭
+	&shadeHeight=  //遮罩高度 只适用于ios
+	//返回值
+	returnObject:null
+
+
+```
