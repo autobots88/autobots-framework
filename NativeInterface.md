@@ -158,7 +158,7 @@
 ``` javascript
 	//传递参数
 	display=true //true 打开 false 关闭
-	&shadeHeight=  //遮罩高度 只适用于ios
+	&shadeHeight=  //遮罩高度 只适用于ios，不传时候为默认上方空出65的高度。
 	//返回值
 	returnObject:null
 
