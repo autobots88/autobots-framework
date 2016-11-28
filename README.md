@@ -122,24 +122,29 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
    
 ```
 
+#### Loading
+> 调用汽车人统一loading。  
+
+``` javascript
+  import {MainLoading} from 'autobots-framework';
+  //短文本
+  Toast.Show('xxx');
+  //超长文本
+  Toast.ShowLong('xxx');
+
+```
+
 ### Config
 > 提供系统内的一些配置参数。  
  
 #### 调用方式
 ``` javascript
-  import {Config} from 'autobots-framework';
-  //获取参数对象
-  var c = Config.get();
+  import {Components} from 'autobots-framework';
+  const {MainLoading} = Components;
   
-  console.log(c);
-  //输出结果
-   {
-	  "name":"xxx",
-	  "homeTitle":"xxx", 
-	  "startApp":object,//首页对象
-	  "empCode":"xxx",//当前登录人工号
-	  "urlParams":"xxx",//从原生获取的网页传递参数
-   }
+  MainLoading.Show(); //显示
+  MainLoading.Hide(); //隐藏
+  
    
 ```
 
@@ -156,3 +161,5 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
   Toast.ShowLong('xxx');
 
 ```
+
+
