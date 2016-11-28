@@ -126,11 +126,12 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
 > 调用汽车人统一loading。  
 
 ``` javascript
-  import {MainLoading} from 'autobots-framework';
+  import {Components} from 'autobots-framework';
+  const {MainLoading} = Components;
   //短文本
-  Toast.Show('xxx');
+  MainLoading.Show('xxx');
   //超长文本
-  Toast.ShowLong('xxx');
+  MainLoading.ShowLong('xxx');
 
 ```
 
