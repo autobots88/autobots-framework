@@ -129,9 +129,9 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
   import {Components} from 'autobots-framework';
   const {MainLoading} = Components;
   //短文本
-  MainLoading.Show('xxx');
+  MainLoading.Show();
   //超长文本
-  MainLoading.ShowLong('xxx');
+  MainLoading.ShowLong();
 
 ```
 
