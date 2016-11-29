@@ -122,6 +122,25 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
    
 ```
 
+
+#### EmployeePicker
+``` javascript
+  import {Components} from 'autobots-framework';
+  const {EmployeePicker} = Components;
+  
+  ...
+  <EmployeePicker ref={empPicker=>this.empPicker=empPicker} onPicked={(data)=>{
+		   //返回值
+		   返回图片url
+ }} />
+
+ this.empPicker.MutiPick(); //多选
+ this.empPicker.SinglePick();//单选
+
+ ...
+   
+```
+
 #### Loading
 > 调用汽车人统一loading。  
 
