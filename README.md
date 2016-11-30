@@ -133,8 +133,8 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
 		   返回图片url
  }} />
 
- this.empPicker.MutiPick(); //多选
- this.empPicker.SinglePick();//单选
+ this.empPicker.MutiPick("选择出差人","最近选择出差人"); //多选
+ this.empPicker.SinglePick("选择出差人","最近选择出差人");//单选
 
  ...
    
