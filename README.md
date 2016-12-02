@@ -168,7 +168,7 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
 	  name:"xxx",
 	  homeTitle:"xxx", 
 	  startApp:object,//首页对象
-	  empCode:"xxx",//当前登录人工号
+	  employee:{empCode:"xxx",empName:"xxx"},//当前登录人信息	
 	  urlParams:"xxx",//从原生获取的网页传递参数
 	}
    
