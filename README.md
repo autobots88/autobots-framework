@@ -158,14 +158,22 @@ Http.request("http://xxx.com",{name:""}).then(function(data){
  
 #### 调用方式
 ``` javascript
-  import {Components} from 'autobots-framework';
-  const {MainLoading} = Components;
+  import {Config} from 'autobots-framework';
+  //获取参数对象
+  var c = Config.get();
   
-  MainLoading.Show(); //显示
-  MainLoading.Hide(); //隐藏
-  
+  console.log(c);
+  //输出结果
+   {
+	  name:"xxx",
+	  homeTitle:"xxx", 
+	  startApp:object,//首页对象
+	  empCode:"xxx",//当前登录人工号
+	  urlParams:"xxx",//从原生获取的网页传递参数
+	}
    
 ```
+
 
 
 ### Toast
